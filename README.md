@@ -12,7 +12,7 @@ curl -LO https://github.com/kaiwalyakoparkar/pod-logger/blob/main/api/kubernetes
 Then apply it to your cluster
 
 ```bash
-kubectl apply -f podlogger.yaml
+kubectl apply -f combined.yaml
 ```
 
 And voila! You should be able to access the dashboard at `http://<your-cluster-ip>:30080`
